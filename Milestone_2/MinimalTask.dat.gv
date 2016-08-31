@@ -1,0 +1,7 @@
+digraph myGraph {
+"TASK\nINSTALL CPU"->"TASK\nDONE" [color=green];
+"TASK\nINSTALL CPU"->"TASK\nREMOVE CPU" [color=red];
+"TASK\nREMOVE CPU"->"TASK\nINSTALL CPU" [color=green];
+"TASK\nDONE"
+"TASK\nHEAD"->"TASK\nINSTALL CPU" [color=green];
+}

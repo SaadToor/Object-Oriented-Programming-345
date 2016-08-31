@@ -1,0 +1,4 @@
+digraph myGraph {
+"ITEM\nI7"->" INSTALLER\nINSTALL CPU" [color=green];
+"ITEM\nI7"->" REMOVER\nREMOVE CPU" [color=red];
+}

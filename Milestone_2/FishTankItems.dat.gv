@@ -1,0 +1,22 @@
+digraph myGraph {
+"Tank"->" Task Installer SetupTank" [color=green];
+"Tank"->" Task Remover RemoveTank" [color=red];
+"Gravel"->" Task Installer AddGravel" [color=green];
+"Gravel"->" Task Remover RemoveGravel" [color=red];
+"Filter"->" Task Installer AssembleFilter" [color=green];
+"Filter"->" Task Remover DisassembleFilter" [color=red];
+"Lighting"->" Task Installer InstallLighting" [color=green];
+"Lighting"->" Task Remover ReplaceLighting" [color=red];
+"Heater"->" Task Installer AddHeater" [color=green];
+"Heater"->" Task Remover RemoveHeater" [color=red];
+"Water"->" Task Installer AddWater" [color=green];
+"Water"->" Task Remover DrainWater" [color=red];
+"Rocks"->" Task Installer AddRocks" [color=green];
+"Rocks"->" Task Remover RemoveRocks" [color=red];
+"Fish"->" Task Installer AddFish" [color=green];
+"Fish"->" Task Remover CatchFish" [color=red];
+"Coral"->" Task Installer AddCoral" [color=green];
+"Coral"->" Task Remover RemoveCoral" [color=red];
+"Toys"->" Task Installer AddToys" [color=green];
+"Toys"->" Task Remover RemoveToys" [color=red];
+}

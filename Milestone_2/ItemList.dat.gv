@@ -1,0 +1,8 @@
+digraph myGraph {
+"CPU"->" Task Installer CPU" [color=green];
+"CPU"->" Task Remover Remove CPU" [color=red];
+"Memory"->" Task Installer Memory" [color=green];
+"Memory"->" Task Remover Remove Memory" [color=red];
+"GPU"->" Task Installer GPU" [color=green];
+"GPU"->" Task Remover Remove GPU" [color=red];
+}
